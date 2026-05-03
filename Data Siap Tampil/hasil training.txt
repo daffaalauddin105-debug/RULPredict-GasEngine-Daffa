@@ -1,0 +1,72 @@
+[Global] flatline 2/2 → FLATLINE ✗ | MSE=0.000002
+
+  >> Aggregate score (mean all): 0.166675
+
+Trial 99 | Window=50 | Hidden=80 | lr=2.14e-02 | Score=0.166675
+
+Best Params: {'hidden_dim': 128, 'lr': 0.009221206796398509, 'window_size': 50}
+
+Best Params (global): {'hidden_dim': 128, 'lr': 0.009221206796398509, 'window_size': 50}
+
+============================================================
+  Training final models — Dirty
+============================================================
+
+--- [Dirty] [Combustion] ---
+    Epoch   0 | MSE = 0.119921
+    Epoch  10 | MSE = 0.000005
+    Epoch  20 | MSE = 0.000023
+    Epoch  30 | MSE = 0.000020
+    Epoch  40 | MSE = 0.000023
+  Model disimpan: Training Results\Dirty\BiLSTM_Combustion_best.pt
+
+--- [Dirty] [Systemic] ---
+    Epoch   0 | MSE = 0.370039
+    Epoch  10 | MSE = 0.000008
+    Epoch  20 | MSE = 0.000012
+    Epoch  30 | MSE = 0.000010
+    Epoch  40 | MSE = 0.000009
+  Model disimpan: Training Results\Dirty\BiLSTM_Systemic_best.pt
+
+--- [Dirty] [Global] ---
+    Epoch   0 | MSE = 0.148142
+    Epoch  10 | MSE = 0.000006
+    Epoch  20 | MSE = 0.000008
+    Epoch  30 | MSE = 0.000008
+    Epoch  40 | MSE = 0.000011
+  Model disimpan: Training Results\Dirty\BiLSTM_Global_best.pt
+
+============================================================
+  Training final models — Clean
+============================================================
+
+--- [Clean] [Combustion] ---
+    Epoch   0 | MSE = 0.315564
+    Epoch  10 | MSE = 0.000004
+    Epoch  20 | MSE = 0.000005
+    Epoch  30 | MSE = 0.000006
+    Epoch  40 | MSE = 0.000010
+  Model disimpan: Training Results\Clean\BiLSTM_Combustion_best.pt
+
+--- [Clean] [Systemic] ---
+    Epoch   0 | MSE = 0.058760
+    Epoch  10 | MSE = 0.000016
+    Epoch  20 | MSE = 0.000012
+    Epoch  30 | MSE = 0.000011
+    Epoch  40 | MSE = 0.000007
+  Model disimpan: Training Results\Clean\BiLSTM_Systemic_best.pt
+
+--- [Clean] [Global] ---
+    Epoch   0 | MSE = 0.052043
+    Epoch  10 | MSE = 0.000007
+    Epoch  20 | MSE = 0.000008
+    Epoch  30 | MSE = 0.000014
+    Epoch  40 | MSE = 0.000042
+  Model disimpan: Training Results\Clean\BiLSTM_Global_best.pt
+
+============================================================
+  Semua training selesai!
+  Hasil disimpan di: Training Results/
+    - best_configs.txt  (human-readable)
+    - best_configs.json (machine-readable)
+============================================================

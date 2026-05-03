@@ -1,0 +1,286 @@
+
+======================================================================
+[2026-05-02 12:03:59.353230] Processing File: run_to_failure1.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+
+======================================================================
+[2026-05-02 12:03:59.366223] Processing File: run_to_failure2.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+
+======================================================================
+[2026-05-02 12:03:59.376568] Processing File: run_to_failure3.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+
+======================================================================
+[2026-05-02 12:03:59.388142] Processing File: run_to_failure4.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+
+======================================================================
+[2026-05-02 12:03:59.399018] Processing File: run_to_failure5.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+
+======================================================================
+[2026-05-02 12:03:59.410868] Processing File: run_to_failure6.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+
+======================================================================
+[2026-05-02 12:03:59.422844] Processing File: run_to_failure7.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.359669] Processing File: run_to_failure1.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  130) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.376472] Processing File: run_to_failure2.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  220) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.394099] Processing File: run_to_failure3.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  322) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.414986] Processing File: run_to_failure4.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  265) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.434113] Processing File: run_to_failure5.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  235) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.487240] Processing File: run_to_failure6.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  243) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:07.507394] Processing File: run_to_failure7.csv
+Sensor Exh Cyl #1 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #2 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #3 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #4 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #5 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Cyl #6 Temp           | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Right Temp            | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Exh Left Temp             | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor Oil Temp                  | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+Sensor JW Temp                   | Status: PCHIP Imputed (NaN:  232) | Method: PCHIP
+
+======================================================================
+[2026-05-02 13:16:21] Refined Imputation: run_to_failure1.csv
+Sensor Exh Cyl #1 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #2 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #3 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #4 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #5 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #6 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Right Temp            | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Left Temp             | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Oil Temp                  | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor JW Temp                   | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure1.csv
+Sensor Exh Cyl #1 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #2 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #3 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #4 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #5 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Cyl #6 Temp           | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Right Temp            | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Exh Left Temp             | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor Oil Temp                  | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+Sensor JW Temp                   | Status: Imputed (NaN:  130) | Method: PCHIP Internal
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure2.csv
+Sensor Exh Cyl #1 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #2 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #3 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #4 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #5 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #6 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Right Temp            | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Left Temp             | Status: OK (No internal NaN)   | Method: -
+Sensor Oil Temp                  | Status: OK (No internal NaN)   | Method: -
+Sensor JW Temp                   | Status: OK (No internal NaN)   | Method: -
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure3.csv
+Sensor Exh Cyl #1 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #2 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #3 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #4 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #5 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #6 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Right Temp            | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Left Temp             | Status: OK (No internal NaN)   | Method: -
+Sensor Oil Temp                  | Status: OK (No internal NaN)   | Method: -
+Sensor JW Temp                   | Status: OK (No internal NaN)   | Method: -
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure4.csv
+Sensor Exh Cyl #1 Temp           | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Cyl #2 Temp           | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Cyl #3 Temp           | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Cyl #4 Temp           | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Cyl #5 Temp           | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Cyl #6 Temp           | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Right Temp            | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Exh Left Temp             | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor Oil Temp                  | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+Sensor JW Temp                   | Status: Imputed (NaN:  142) | Method: PCHIP Internal
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure5.csv
+Sensor Exh Cyl #1 Temp           | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Cyl #2 Temp           | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Cyl #3 Temp           | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Cyl #4 Temp           | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Cyl #5 Temp           | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Cyl #6 Temp           | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Right Temp            | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Exh Left Temp             | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor Oil Temp                  | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+Sensor JW Temp                   | Status: Imputed (NaN:   23) | Method: PCHIP Internal
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure6.csv
+Sensor Exh Cyl #1 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #2 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #3 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #4 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #5 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #6 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Right Temp            | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Left Temp             | Status: OK (No internal NaN)   | Method: -
+Sensor Oil Temp                  | Status: OK (No internal NaN)   | Method: -
+Sensor JW Temp                   | Status: OK (No internal NaN)   | Method: -
+
+======================================================================
+[2026-05-02 13:18:53] Refined Imputation: run_to_failure7.csv
+Sensor Exh Cyl #1 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #2 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #3 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #4 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #5 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Cyl #6 Temp           | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Right Temp            | Status: OK (No internal NaN)   | Method: -
+Sensor Exh Left Temp             | Status: OK (No internal NaN)   | Method: -
+Sensor Oil Temp                  | Status: OK (No internal NaN)   | Method: -
+Sensor JW Temp                   | Status: OK (No internal NaN)   | Method: -

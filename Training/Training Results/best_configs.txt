@@ -1,0 +1,58 @@
+============================================================
+  BEST HYPERPARAMETER CONFIGURATIONS
+============================================================
+
+[Dirty]
+----------------------------------------
+  Variation   : Combustion
+  Best Value  : 0.0
+  Model File  : Training Results\Dirty\BiLSTM_Combustion_best.pt
+  Params      :
+    hidden_dim     : 128
+    lr             : 0.009221206796398509
+    window_size    : 50
+
+  Variation   : Systemic
+  Best Value  : 0.0
+  Model File  : Training Results\Dirty\BiLSTM_Systemic_best.pt
+  Params      :
+    hidden_dim     : 128
+    lr             : 0.009221206796398509
+    window_size    : 50
+
+  Variation   : Global
+  Best Value  : 0.0
+  Model File  : Training Results\Dirty\BiLSTM_Global_best.pt
+  Params      :
+    hidden_dim     : 128
+    lr             : 0.009221206796398509
+    window_size    : 50
+
+
+[Clean]
+----------------------------------------
+  Variation   : Combustion
+  Best Value  : 0.0
+  Model File  : Training Results\Clean\BiLSTM_Combustion_best.pt
+  Params      :
+    hidden_dim     : 128
+    lr             : 0.009221206796398509
+    window_size    : 50
+
+  Variation   : Systemic
+  Best Value  : 0.0
+  Model File  : Training Results\Clean\BiLSTM_Systemic_best.pt
+  Params      :
+    hidden_dim     : 128
+    lr             : 0.009221206796398509
+    window_size    : 50
+
+  Variation   : Global
+  Best Value  : 0.0
+  Model File  : Training Results\Clean\BiLSTM_Global_best.pt
+  Params      :
+    hidden_dim     : 128
+    lr             : 0.009221206796398509
+    window_size    : 50
+
+

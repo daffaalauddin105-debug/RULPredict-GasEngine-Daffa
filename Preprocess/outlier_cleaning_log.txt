@@ -1,0 +1,182 @@
+
+======================================================================
+[2026-05-02 13:02:16.990190] Outlier Cleaning: run_to_failure1.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (   2) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (   8) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #5 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #6 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Right Temp            | Status: Outlier Removed (   4) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Clean (No Outliers)    | Method: -
+Sensor Oil Temp                  | Status: Clean (No Outliers)    | Method: -
+Sensor JW Temp                   | Status: Clean (No Outliers)    | Method: -
+
+======================================================================
+[2026-05-02 13:02:17.036718] Outlier Cleaning: run_to_failure2.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  60) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  35) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  35) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:02:17.069894] Outlier Cleaning: run_to_failure3.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  24) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:02:17.099905] Outlier Cleaning: run_to_failure4.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  44) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  47) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  46) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  45) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  84) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  71) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  42) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  42) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:02:17.132938] Outlier Cleaning: run_to_failure5.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  63) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:02:17.163607] Outlier Cleaning: run_to_failure6.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  52) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:02:17.193621] Outlier Cleaning: run_to_failure7.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  56) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:19:31.014999] Outlier Cleaning: run_to_failure1.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (   2) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (   8) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #5 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #6 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Right Temp            | Status: Outlier Removed (   4) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Clean (No Outliers)    | Method: -
+Sensor Oil Temp                  | Status: Clean (No Outliers)    | Method: -
+Sensor JW Temp                   | Status: Clean (No Outliers)    | Method: -
+
+======================================================================
+[2026-05-02 13:19:31.030280] Outlier Cleaning: run_to_failure2.csv
+Sensor Exh Cyl #1 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #2 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (   3) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #6 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Right Temp            | Status: Outlier Removed (   7) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Clean (No Outliers)    | Method: -
+Sensor Oil Temp                  | Status: Clean (No Outliers)    | Method: -
+Sensor JW Temp                   | Status: Clean (No Outliers)    | Method: -
+
+======================================================================
+[2026-05-02 13:19:31.040998] Outlier Cleaning: run_to_failure3.csv
+Sensor Exh Cyl #1 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #2 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #3 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #4 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #5 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #6 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Right Temp            | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Left Temp             | Status: Clean (No Outliers)    | Method: -
+Sensor Oil Temp                  | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:19:31.056878] Outlier Cleaning: run_to_failure4.csv
+Sensor Exh Cyl #1 Temp           | Status: Outlier Removed (  13) | Method: IQR + PCHIP
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (  20) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (  15) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (  10) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (  29) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (  29) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (  69) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (  25) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Clean (No Outliers)    | Method: -
+Sensor JW Temp                   | Status: Clean (No Outliers)    | Method: -
+
+======================================================================
+[2026-05-02 13:19:31.072780] Outlier Cleaning: run_to_failure5.csv
+Sensor Exh Cyl #1 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Outlier Removed (   3) | Method: IQR + PCHIP
+Sensor Exh Left Temp             | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Clean (No Outliers)    | Method: -
+Sensor JW Temp                   | Status: Clean (No Outliers)    | Method: -
+
+======================================================================
+[2026-05-02 13:19:31.090311] Outlier Cleaning: run_to_failure6.csv
+Sensor Exh Cyl #1 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #2 Temp           | Status: Outlier Removed (   2) | Method: IQR + PCHIP
+Sensor Exh Cyl #3 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Outlier Removed (   9) | Method: IQR + PCHIP
+Sensor Exh Cyl #6 Temp           | Status: Outlier Removed (   9) | Method: IQR + PCHIP
+Sensor Exh Right Temp            | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Left Temp             | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (   2) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (   2) | Method: IQR + PCHIP
+
+======================================================================
+[2026-05-02 13:19:31.105652] Outlier Cleaning: run_to_failure7.csv
+Sensor Exh Cyl #1 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #2 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #3 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #4 Temp           | Status: Outlier Removed (   1) | Method: IQR + PCHIP
+Sensor Exh Cyl #5 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Cyl #6 Temp           | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Right Temp            | Status: Clean (No Outliers)    | Method: -
+Sensor Exh Left Temp             | Status: Outlier Removed (   5) | Method: IQR + PCHIP
+Sensor Oil Temp                  | Status: Outlier Removed (  11) | Method: IQR + PCHIP
+Sensor JW Temp                   | Status: Outlier Removed (  11) | Method: IQR + PCHIP
