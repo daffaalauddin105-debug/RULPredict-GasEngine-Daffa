@@ -1,0 +1,13 @@
+{
+    "alarm_val": 0.8078820288461352,
+    "shutdown_val": 0.8078820288461352,
+    "sim_delay": 0.1,
+    "data_type": "Dirty",
+    "variation": "Combustion",
+    "config_path": "d:\\Documents\\Tugas Akhir\\Full Pipeline Rapi\\Testing\\Training Results\\best_configs.json",
+    "model_dir": "d:\\Documents\\Tugas Akhir\\Full Pipeline Rapi\\Testing\\Training Results",
+    "ckf_meas_var": 15.0,
+    "ckf_proc_var": 0.001,
+    "ckf_growth_rate": 1.01,
+    "plot_every": 5
+}

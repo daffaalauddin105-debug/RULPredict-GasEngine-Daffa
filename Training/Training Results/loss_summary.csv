@@ -1,0 +1,7 @@
+data_type,variation,train_mse,val_mse
+Dirty,Combustion,0.00000470,0.00000263
+Dirty,Systemic,0.00002314,0.00001659
+Dirty,Global,0.00000355,0.00000574
+Clean,Combustion,0.00001097,0.00000970
+Clean,Systemic,0.00001136,0.00001163
+Clean,Global,0.00003119,0.00002898

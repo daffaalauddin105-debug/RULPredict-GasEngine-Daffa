@@ -1,0 +1,82 @@
+{
+    "Dirty": {
+        "Combustion": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.009221206796398509,
+                "window_size": 50
+            },
+            "best_value": 0.0,
+            "model_file": "Training Results\\Dirty\\BiLSTM_Combustion_best.pt"
+        },
+        "Systemic": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.009221206796398509,
+                "window_size": 50
+            },
+            "best_value": 0.0,
+            "model_file": "Training Results\\Dirty\\BiLSTM_Systemic_best.pt"
+        },
+        "Global": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.009221206796398509,
+                "window_size": 50
+            },
+            "best_value": 0.0,
+            "model_file": "Training Results\\Dirty\\BiLSTM_Global_best.pt"
+        },
+        "Combustion_finetuned": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.0009221206796398509,
+                "window_size": 50,
+                "batch_size": 16,
+                "epochs": 20
+            },
+            "finetuned_from": "Training Results\\Dirty\\BiLSTM_Combustion_best.pt",
+            "model_file": "Training Results\\Dirty\\BiLSTM_Combustion_finetuned.pt"
+        },
+        "Systemic_finetuned": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.0009221206796398509,
+                "window_size": 50,
+                "batch_size": 16,
+                "epochs": 20
+            },
+            "finetuned_from": "Training Results\\Dirty\\BiLSTM_Systemic_best.pt",
+            "model_file": "Training Results\\Dirty\\BiLSTM_Systemic_finetuned.pt"
+        }
+    },
+    "Clean": {
+        "Combustion": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.009221206796398509,
+                "window_size": 50
+            },
+            "best_value": 0.0,
+            "model_file": "Training Results\\Clean\\BiLSTM_Combustion_best.pt"
+        },
+        "Systemic": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.009221206796398509,
+                "window_size": 50
+            },
+            "best_value": 0.0,
+            "model_file": "Training Results\\Clean\\BiLSTM_Systemic_best.pt"
+        },
+        "Global": {
+            "best_params": {
+                "hidden_dim": 128,
+                "lr": 0.009221206796398509,
+                "window_size": 50
+            },
+            "best_value": 0.0,
+            "model_file": "Training Results\\Clean\\BiLSTM_Global_best.pt"
+        }
+    }
+}
