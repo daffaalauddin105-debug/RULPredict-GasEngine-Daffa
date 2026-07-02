@@ -9,7 +9,7 @@ from dataset import RULDataset
 from torch.utils.data import DataLoader
 from model_train import BiLSTM
 
-# --- KONFIGURASI (sama dengan main.py) ---
+# --- KONFIGURASI ---
 
 DIRS = {
     'Dirty': 'Training\\PCA Result\\Outliered Data',

@@ -85,7 +85,7 @@ def load_data(file_path, col_name=None):
 BASE_DIR   = 'Testing'
 DATA_TYPE  = 'Dirty'
 VARIATION  = 'Combustion'  # Pilihan: 'Combustion', 'Systemic', 'Global'
-RTF = '6'  # Run To Failure
+RTF = '4'  # Run To Failure
 TESTING = {'Combustion':'C', 'Systemic':'S', 'Global':'G'}[VARIATION]
 if TESTING is None:
     raise ValueError(f"VARIATION tidak dikenali: {VARIATION}")
@@ -95,11 +95,11 @@ custom_path = os.path.join(
     BASE_DIR,
     'Training Results',
     DATA_TYPE,
-    f'BiLSTM_{VARIATION}_finetuned.pt'
+    f'BiLSTM_{VARIATION}_best.pt'
 )
 
 START_AT = 0.0
-SPLIT_AT = 0.5
+SPLIT_AT = 0.75
 
 # =============================================================
 # LOAD MODEL & DATA
