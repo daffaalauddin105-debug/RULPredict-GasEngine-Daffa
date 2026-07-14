@@ -1,0 +1,80 @@
+/* This script is AI-Generated */
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Tidak Ditemukan</title>
+    <meta name="robots" content="noindex, nofollow">
+    
+    <style>
+        /* CSS untuk mengatur tampilan gerbang akses */
+        #konten-skripsi { display: none; }
+        #pesan-error { 
+            display: block; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            margin-top: 150px; 
+            color: #333; 
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; font-family: sans-serif; }
+        .izin-akademis { 
+            margin-top: 50px; 
+            padding: 15px; 
+            background-color: #f9f9f9; 
+            border-left: 4px solid #007bff; 
+            font-size: 0.9em; 
+            color: #555; 
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pesan-error">
+        <h1>404 - Page Not Found</h1>
+        <p>Halaman yang Anda cari tidak dapat ditemukan atau token akses Anda salah.</p>
+    </div>
+
+
+    <div id="konten-skripsi" class="container">
+        
+        <header>
+            <h1>Dashboard Prediksi Remaining Useful Life (RUL) Gas Engine</h1>
+            <p><strong>Oleh: Daffa Alauddin</strong></p>
+            <hr>
+        </header>
+
+        <main>
+            <p>Selamat datang.</p>
+            
+            </main>
+
+
+        <footer>
+            <div class="izin-akademis">
+                <strong>Pernyataan Penggunaan Data & Kode (Izin Akademis):</strong><br>
+                Meskipun repository ini tidak menggunakan lisensi open-source publik (No License), Pemilik Hak Cipta memberikan izin penuh kepada mahasiswa/peneliti dari instansi terkait (khususnya penerus penelitian/skripsi ini) untuk menggunakan, memodifikasi, dan mengembangkan data serta kode di dalam repository ini untuk kepentingan akademis, dengan syarat wajib mencantumkan sitasi ke skripsi utama.
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Mengambil parameter dari URL (?auth=...)
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('auth'); 
+
+        // Kunci akses rahasia Anda. Bisa Anda ganti sesuai keinginan.
+        const kunciRahasia = "daffa-rul-2026"; 
+
+        if (token === kunciRahasia) {
+            // Jika token cocok, tampilkan konten asli dan sembunyikan pesan error
+            document.getElementById('konten-skripsi').style.display = 'block';
+            document.getElementById('pesan-error').style.display = 'none';
+            
+            // Mengubah judul tab browser menjadi judul skripsi Anda
+            document.title = "Proyek Akhir - Prediksi RUL Gas Engine"; 
+        }
+    </script>
+</body>
+</html>
