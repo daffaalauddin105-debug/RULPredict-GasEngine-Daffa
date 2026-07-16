@@ -44,7 +44,7 @@
         .btn-secondary { background-color: #f6f8fa; color: #24292e; padding: 12px 24px; text-decoration: none; border-radius: 6px; border: 1px solid #d1d5da; font-weight: bold; transition: background 0.2s; }
         .btn-secondary:hover { background-color: #f3f4f6; }
         
-        /* File Browser Palsu */
+        /* File Browser */
         .file-browser { background: #f6f8fa; padding: 15px; border-radius: 6px; border: 1px solid #e1e4e8; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; }
         .file-browser h4 { margin-top: 0; margin-bottom: 10px; color: #586069; }
         .file-browser ul { list-style-type: none; padding-left: 0; margin: 0; }
@@ -105,14 +105,14 @@
                 <div class="file-browser">
                     <h4>Struktur Berkas Utama Proyek:</h4>
                     <ul>
-                        <li>📁 <code>Data RTF Mentah/</code> – Folder berisi data mentah RTF yang diseleksi.</li>
-                        <li>📁 <code>Data Siap Tampil/</code> – Folder berisi hasil.</li>
-                        <li>📁 <code>K101 Data/</code> – Folder berisi data logger temperatur gas engine.</li>
-                        <li>📁 <code>Preprocess/</code> – Folder berisi pipeline pra pemrosesan (.csv).</li>
-                        <li>📁 <code>Testing/</code> – Folder berisi data pipeline tes.</li>
-                        <li>📁 <code>Training/</code> – Folder berisi data pipeline trainning dan model.</li>
-                        <li>📄 <code>GUI_New.py</code> – Kode GUI siap pakai dengan model terbaik, ada di dalam folder Testing.</li>
-                        <li>📄 <code>requirements.txt</code> — Daftar *library* dependency Python yang digunakan.</li>
+                        <li>📁 <code>Data RTF Mentah/</code> – Folder berisi berkas data mentah log lapangan (.rtf).</li>
+                        <li>📁 <code>Data Siap Tampil/</code> – Folder berisi visualisasi dataset hasil ekstraksi dan filter.</li>
+                        <li>📁 <code>K101 Data/</code> – Folder data logger parameter temperatur utama kompresor gas engine (.csv).</li>
+                        <li>📁 <code>Preprocess/</code> – Struktur skrip pembantu untuk pembersihan dan rekayasa fitur data.</li>
+                        <li>📁 <code>Testing/</code> – Lingkungan pengujian model deep learning beserta data validasi.</li>
+                        <li>📁 <code>Training/</code> – Folder berisi kode latih arsitektur deep learning dan penyimpanan bobot model.</li>
+                        <li>📄 <code>Testing/GUI_New.py</code> – Kode antarmuka grafis (GUI) siap pakai terintegrasi dengan arsitektur model final.</li>
+                        <li>📄 <code>requirements.txt</code> – Daftar pustaka dependency environment Python yang wajib diinstal.</li>
                     </ul>
                 </div>
             </section>
@@ -159,16 +159,22 @@
         // Kunci token rahasia yang Anda gunakan di skripsi
         const kunciRahasia = "daffa-rul-2026"; 
 
-        // bypass otomatis agar Anda tidak terblokir saat testing offline di laptop
+        // Bypass otomatis agar Anda tidak terblokir saat testing offline di laptop
         const isLocalhost = window.location.hostname === "localhost" || 
                             window.location.hostname === "127.0.0.1" || 
                             window.location.protocol === "file:";
 
         if (token === kunciRahasia || isLocalhost) {
-            // Jika token cocok atau sedang dibuka offline di laptop, buka kunci konten
+            // 1. Jika cocok, buka kunci konten asli
             document.getElementById('konten-skripsi').style.display = 'block';
             document.getElementById('pesan-error').style.display = 'none';
             document.title = "Proyek Akhir - Prediksi RUL Gas Engine"; 
+
+            // 2. Trik Menyembunyikan Token: Bersihkan parameter URL di browser tanpa reload halaman
+            if (!isLocalhost && token === kunciRahasia) {
+                const urlBersih = window.location.protocol + "//" + window.location.host + window.location.pathname;
+                window.history.replaceState({ path: urlBersih }, '', urlBersih);
+            }
         }
     </script>
 </body>
