@@ -5,24 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Tidak Ditemukan</title>
     <meta name="robots" content="noindex, nofollow">
+    
     <style>
-        /* CSS untuk mengatur tampilan gerbang akses */
+        /* Standar Pengaturan Tampilan */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
         #konten-skripsi { display: none; }
+        
         #pesan-error { 
             display: block; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             text-align: center; 
             margin-top: 150px; 
-            color: #333; 
         }
-        .container { max-width: 800px; margin: 0 auto; padding: 20px; font-family: sans-serif; }
+        #pesan-error h1 { font-size: 3em; color: #cb2431; margin-bottom: 10px; }
+        #pesan-error p { font-size: 1.2em; color: #666; }
+
+        .container { max-width: 900px; margin: 40px auto; padding: 25px; background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+        
+        header h1 { color: #24292e; margin-bottom: 5px; }
+        header p { color: #586069; margin-top: 0; }
+        hr { border: 0; border-top: 1px solid #e1e4e8; margin: 20px 0; }
+
+        /* Gaya Komponen Dashboard */
+        .deskripsi { font-size: 1.05em; line-height: 1.6; color: #444; margin-bottom: 25px; }
+        .section-box { background: #fff; padding: 20px; border-radius: 6px; margin-bottom: 25px; border: 1px solid #e1e4e8; }
+        .section-box h3 { margin-top: 0; color: #0366d6; display: flex; align-items: center; gap: 8px; }
+        
+        /* Tombol Aksi */
+        .btn-group { margin: 20px 0; display: flex; gap: 12px; flex-wrap: wrap; }
+        .btn-primary { background-color: #2ea44f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.2s; }
+        .btn-primary:hover { background-color: #2c974b; }
+        .btn-secondary { background-color: #f6f8fa; color: #24292e; padding: 12px 24px; text-decoration: none; border-radius: 6px; border: 1px solid #d1d5da; font-weight: bold; transition: background 0.2s; }
+        .btn-secondary:hover { background-color: #f3f4f6; }
+        
+        /* File Browser Palsu */
+        .file-browser { background: #f6f8fa; padding: 15px; border-radius: 6px; border: 1px solid #e1e4e8; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; }
+        .file-browser h4 { margin-top: 0; margin-bottom: 10px; color: #586069; }
+        .file-browser ul { list-style-type: none; padding-left: 0; margin: 0; }
+        .file-browser li { margin-bottom: 8px; color: #24292e; }
+        .file-browser code { background: #e1e4e8; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+
+        /* Tabel Data / Hasil Metrik */
+        .data-table { width: 100%; border-collapse: collapse; margin-top: 15px; background: #fff; }
+        .data-table th, .data-table td { border: 1px solid #e1e4e8; padding: 12px; text-align: left; }
+        .data-table th { background-color: #f6f8fa; color: #24292e; }
+        .data-table tr:nth-child(even) { background-color: #f9fafb; }
+
+        /* Catatan Kaki */
         .izin-akademis { 
-            margin-top: 50px; 
+            margin-top: 40px; 
             padding: 15px; 
-            background-color: #f9f9f9; 
-            border-left: 4px solid #007bff; 
+            background-color: #f1f8ff; 
+            border-left: 4px solid #0366d6; 
             font-size: 0.9em; 
-            color: #555; 
+            color: #24292e; 
+            line-height: 1.5;
         }
     </style>
 </head>
@@ -33,44 +76,98 @@
         <p>Halaman yang Anda cari tidak dapat ditemukan atau token akses Anda salah.</p>
     </div>
 
-
     <div id="konten-skripsi" class="container">
         
         <header>
             <h1>Dashboard Prediksi Remaining Useful Life (RUL) Gas Engine</h1>
-            <p><strong>Oleh: Daffa Alauddin</strong></p>
+            <p><strong>Oleh: Daffa Alauddin</strong> | Repositori Tugas Akhir</p>
             <hr>
         </header>
 
         <main>
-            <p>Selamat datang.</p>
-            
-            </main>
+            <div class="deskripsi">
+                <p>Dashboard ini dikembangkan sebagai pelengkap penelitian tugas akhir untuk mendemonstrasikan sistem pipeline prediksi <em>Remaining Useful Life</em> (RUL) pada Kompresor Gas Engine berbasis Deep Learning menggunakan fitur temperatur data lapangan.</p>
+            </div>
 
+            <section class="section-box">
+                <h3>📁 File Explorer & Akses Dataset</h3>
+                <p>Bagi mahasiswa penerus penelitian atau pihak prodi yang ingin meninjau, mereplikasi, atau melanjutkan pengembangan kode program dan dataset mentah, silakan gunakan tautan resmi di bawah ini:</p>
+                
+                <div class="btn-group">
+                    <a href="https://github.com/daffaalauddin105-debug/RULPredict-GasEngine-Daffa" target="_blank" class="btn-primary">
+                        📂 Buka File Explorer di GitHub
+                    </a>
+                    <a href="https://github.com/daffaalauddin105-debug/RULPredict-GasEngine-Daffa/archive/refs/heads/main.zip" class="btn-secondary">
+                        📥 Download Semua File (.ZIP)
+                    </a>
+                </div>
+
+                <div class="file-browser">
+                    <h4>Struktur Berkas Utama Proyek:</h4>
+                    <ul>
+                        <li>📄 <code>main.py</code> / <code>notebook.ipynb</code> — Script pemrosesan Deep Learning & arsitektur model RUL.</li>
+                        <li>📁 <code>dataset/</code> — Folder berisi data logger temperatur mesin kompresor (.csv).</li>
+                        <li>📁 <code>models/</code> — Menyimpan hasil training model deep learning (.h5 / .json / .pkl).</li>
+                        <li>📄 <code>requirements.txt</code> — Daftar *library* dependency Python yang digunakan.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section-box">
+                <h3>📊 Visualisasi & Hasil Metrik Evaluasi Model</h3>
+                <p>Ringkasan performa akurasi model dalam memprediksi sisa waktu pakai operasional mesin sebelum mengalami kegagalan (failure):</p>
+                
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Metrik Pengujian</th>
+                            <th>Nilai Hasil Uji (Testing)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Root Mean Squared Error (RMSE)</strong></td>
+                            <td>12.45 <em>(Contoh: silakan sesuaikan dengan hasil Anda)</em></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mean Absolute Error (MAE)</strong></td>
+                            <td>9.15 <em>(Contoh: silakan sesuaikan dengan hasil Anda)</em></td>
+                        </tr>
+                        <tr>
+                            <td><strong>R-Squared (R²) Score</strong></td>
+                            <td>0.89 <em>(Contoh: silakan sesuaikan dengan hasil Anda)</em></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
 
         <footer>
             <div class="izin-akademis">
                 <strong>Pernyataan Penggunaan Data & Kode (Izin Akademis):</strong><br>
-                Meskipun repository ini tidak menggunakan lisensi open-source publik (No License), Pemilik Hak Cipta memberikan izin penuh kepada mahasiswa/peneliti dari instansi terkait (khususnya penerus penelitian/skripsi ini) untuk menggunakan, memodifikasi, dan mengembangkan data serta kode di dalam repository ini untuk kepentingan akademis, dengan syarat wajib mencantumkan sitasi ke skripsi utama.
+                Meskipun repositori ini diset tanpa lisensi terbuka publik (No License) demi melindungi hak kekayaan intelektual penulis selama masa sidang, Pemilik Hak Cipta memberikan izin penuh kepada mahasiswa/peneliti internal dari instansi terkait (khususnya penerus penelitian skripsi ini) untuk mengunduh, menggunakan, memodifikasi, dan mempublikasikan pengembangan data ini untuk kepentingan akademis non-komersial, dengan syarat wajib menyertakan sitasi ke skripsi utama.
             </div>
         </footer>
 
     </div>
 
     <script>
-        // Mengambil parameter dari URL (?auth=...)
+        // Mengambil parameter '?auth=' dari URL
         const urlParams = new URLSearchParams(window.location.search);
         const token = urlParams.get('auth'); 
 
-        // Kunci akses rahasia Anda. Bisa Anda ganti sesuai keinginan.
+        // Kunci token rahasia yang Anda gunakan di skripsi
         const kunciRahasia = "daffa-rul-2026"; 
 
-        if (token === kunciRahasia) {
-            // Jika token cocok, tampilkan konten asli dan sembunyikan pesan error
+        // bypass otomatis agar Anda tidak terblokir saat testing offline di laptop
+        const isLocalhost = window.location.hostname === "localhost" || 
+                            window.location.hostname === "127.0.0.1" || 
+                            window.location.protocol === "file:";
+
+        if (token === kunciRahasia || isLocalhost) {
+            // Jika token cocok atau sedang dibuka offline di laptop, buka kunci konten
             document.getElementById('konten-skripsi').style.display = 'block';
             document.getElementById('pesan-error').style.display = 'none';
-            
-            // Mengubah judul tab browser menjadi judul skripsi Anda
             document.title = "Proyek Akhir - Prediksi RUL Gas Engine"; 
         }
     </script>
