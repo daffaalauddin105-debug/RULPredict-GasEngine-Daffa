@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Tidak Ditemukan</title>
+    <title>Page Not Found</title>
     <meta name="robots" content="noindex, nofollow">
     
     <style>
-        /* Standar Pengaturan Tampilan */
+        /* Standard Layout Settings */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f4f6f9;
@@ -32,12 +32,12 @@
         header p { color: #586069; margin-top: 0; }
         hr { border: 0; border-top: 1px solid #e1e4e8; margin: 20px 0; }
 
-        /* Gaya Komponen Dashboard */
+        /* Dashboard Component Styles */
         .deskripsi { font-size: 1.05em; line-height: 1.6; color: #444; margin-bottom: 25px; }
         .section-box { background: #fff; padding: 20px; border-radius: 6px; margin-bottom: 25px; border: 1px solid #e1e4e8; }
         .section-box h3 { margin-top: 0; color: #0366d6; display: flex; align-items: center; gap: 8px; }
         
-        /* Tombol Aksi */
+        /* Action Buttons */
         .btn-group { margin: 20px 0; display: flex; gap: 12px; flex-wrap: wrap; }
         .btn-primary { background-color: #2ea44f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.2s; }
         .btn-primary:hover { background-color: #2c974b; }
@@ -51,13 +51,13 @@
         .file-browser li { margin-bottom: 8px; color: #24292e; }
         .file-browser code { background: #e1e4e8; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
 
-        /* Tabel Data / Hasil Metrik */
+        /* Data Table / Evaluation Metrics */
         .data-table { width: 100%; border-collapse: collapse; margin-top: 15px; background: #fff; }
         .data-table th, .data-table td { border: 1px solid #e1e4e8; padding: 12px; text-align: left; }
         .data-table th { background-color: #f6f8fa; color: #24292e; }
         .data-table tr:nth-child(even) { background-color: #f9fafb; }
 
-        /* Catatan Kaki */
+        /* Footer Notice */
         .izin-akademis { 
             margin-top: 40px; 
             padding: 15px; 
@@ -71,61 +71,65 @@
 </head>
 <body>
 
+    <!-- 1. FAKE ERROR MESSAGE (If accessed without the required token) -->
     <div id="pesan-error">
         <h1>404 - Page Not Found</h1>
-        <p>Halaman yang Anda cari tidak dapat ditemukan atau token akses Anda salah.</p>
+        <p>The page you are looking for could not be found, or your access token is invalid.</p>
     </div>
 
+    <!-- 2. MAIN THESIS DASHBOARD CONTENT -->
     <div id="konten-skripsi" class="container">
         
         <header>
-            <h1>Dashboard Prediksi Remaining Useful Life (RUL) Gas Engine</h1>
-            <p><strong>Oleh: Daffa Alauddin</strong> | Repositori Tugas Akhir</p>
+            <h1>Gas Engine Remaining Useful Life (RUL) Prediction Dashboard</h1>
+            <p><strong>By: Daffa Alauddin</strong> | Undergraduate Thesis Repository</p>
             <hr>
         </header>
 
         <main>
             <div class="deskripsi">
-                <p>Dashboard ini dikembangkan sebagai pelengkap penelitian tugas akhir untuk mendemonstrasikan sistem pipeline prediksi <em>Remaining Useful Life</em> (RUL) pada Kompresor Gas Engine berbasis Deep Learning menggunakan fitur temperatur data lapangan.</p>
+                <p>This dashboard was developed as a complement to an undergraduate thesis research to demonstrate a Deep Learning-based <em>Remaining Useful Life</em> (RUL) prediction pipeline for a Gas Engine Compressor using real field temperature logger features.</p>
             </div>
 
+            <!-- FILE EXPLORER & DOWNLOAD SECTION -->
             <section class="section-box">
-                <h3>📁 File Explorer & Akses Dataset</h3>
-                <p>Bagi mahasiswa penerus penelitian atau pihak prodi yang ingin meninjau, mereplikasi, atau melanjutkan pengembangan kode program dan dataset mentah, silakan gunakan tautan resmi di bawah ini:</p>
+                <h3>📁 File Explorer & Dataset Access</h3>
+                <p>For successor students or faculty members who wish to review, replicate, or continue the development of the source code and raw datasets, please use the official links below:</p>
                 
                 <div class="btn-group">
                     <a href="https://github.com/daffaalauddin105-debug/RULPredict-GasEngine-Daffa" target="_blank" class="btn-primary">
-                        📂 Buka File Explorer di GitHub
+                        📂 Open File Explorer on GitHub
                     </a>
                     <a href="https://github.com/daffaalauddin105-debug/RULPredict-GasEngine-Daffa/archive/refs/heads/main.zip" class="btn-secondary">
-                        📥 Download Semua File (.ZIP)
+                        📥 Download All Files (.ZIP)
                     </a>
                 </div>
 
                 <div class="file-browser">
-                    <h4>Struktur Berkas Utama Proyek:</h4>
+                    <h4>Main Project Repository Structure:</h4>
                     <ul>
-                        <li>📁 <code>Data RTF Mentah/</code> – Folder berisi berkas data mentah log lapangan (.rtf).</li>
-                        <li>📁 <code>Data Siap Tampil/</code> – Folder berisi visualisasi dataset hasil ekstraksi dan filter.</li>
-                        <li>📁 <code>K101 Data/</code> – Folder data logger parameter temperatur utama kompresor gas engine (.csv).</li>
-                        <li>📁 <code>Preprocess/</code> – Struktur skrip pembantu untuk pembersihan dan rekayasa fitur data.</li>
-                        <li>📁 <code>Testing/</code> – Lingkungan pengujian model deep learning beserta data validasi.</li>
-                        <li>📁 <code>Training/</code> – Folder berisi kode latih arsitektur deep learning dan penyimpanan bobot model.</li>
-                        <li>📄 <code>Testing/GUI_New.py</code> – Kode antarmuka grafis (GUI) siap pakai terintegrasi dengan arsitektur model final.</li>
-                        <li>📄 <code>requirements.txt</code> – Daftar pustaka dependency environment Python yang wajib diinstal.</li>
+                        <li>📁 <code>Data RTF Mentah/</code> – Folder containing raw field log files (.rtf).</li>
+                        <li>📁 <code>Data Siap Tampil/</code> – Folder containing visualizations of extracted and filtered datasets.</li>
+                        <li>📁 <code>K101 Data/</code> – Folder containing the main temperature parameter logger datasets for the gas engine compressor (.csv).</li>
+                        <li>📁 <code>Preprocess/</code> – Directory structure for data cleaning and feature engineering scripts.</li>
+                        <li>📁 <code>Testing/</code> – Evaluation environment for the deep learning models along with validation data.</li>
+                        <li>📁 <code>Training/</code> – Folder containing deep learning model training configurations and saved weights.</li>
+                        <li>📄 <code>Testing/GUI_New.py</code> – Ready-to-use Graphical User Interface (GUI) script integrated with the final model architecture.</li>
+                        <li>📄 <code>requirements.txt</code> – List of mandatory Python environment library dependencies.</li>
                     </ul>
                 </div>
             </section>
 
+            <!-- MODEL METRICS AND EVALUATION RESULTS SECTION -->
             <section class="section-box">
-                <h3>📊 Visualisasi & Hasil Metrik Evaluasi Model</h3>
-                <p>Ringkasan performa akurasi model dalam memprediksi sisa waktu pakai operasional mesin sebelum mengalami kegagalan (failure):</p>
+                <h3>📊 Visualizations & Model Evaluation Metrics</h3>
+                <p>Summary of model accuracy performance in predicting the operational remaining useful life of the machinery before encountering failure:</p>
                 
                 <table class="data-table">
                     <thead>
                         <tr>
-                            <th>Metrik Pengujian</th>
-                            <th>Nilai Hasil Uji (Testing)</th>
+                            <th>Evaluation Metric</th>
+                            <th>Testing Evaluation Value</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -142,35 +146,37 @@
             </section>
         </main>
 
+        <!-- ACADEMIC COPYRIGHT NOTICE -->
         <footer>
             <div class="izin-akademis">
-                <strong>Pernyataan Penggunaan Data & Kode (Izin Akademis):</strong><br>
-                Meskipun repositori ini diset tanpa lisensi terbuka publik (No License) demi melindungi hak kekayaan intelektual penulis selama masa sidang, Pemilik Hak Cipta memberikan izin penuh kepada mahasiswa/peneliti internal dari instansi terkait (khususnya penerus penelitian skripsi ini) untuk mengunduh, menggunakan, memodifikasi, dan mempublikasikan pengembangan data ini untuk kepentingan akademis non-komersial, dengan syarat wajib menyertakan sitasi ke skripsi utama.
+                <strong>Data & Code Usage Statement (Academic Permission):</strong><br>
+                Although this repository is set to **No License** to protect the author's intellectual property rights during the defense period, the Copyright Owner grants full permission to internal students and researchers from the affiliated institution (specifically successors continuing this thesis research) to download, use, modify, and publish the development of this data for non-commercial academic purposes, provided that proper citation to the original thesis is included.
             </div>
         </footer>
 
     </div>
 
+    <!-- 3. ACCESS TOKEN LOGIC & URL CLEANER SCRIPT -->
     <script>
-        // Mengambil parameter '?auth=' dari URL
+        // Extract '?auth=' parameter from the URL
         const urlParams = new URLSearchParams(window.location.search);
         const token = urlParams.get('auth'); 
 
-        // Kunci token rahasia yang Anda gunakan di skripsi
+        // Secret access token key
         const kunciRahasia = "daffa-rul-2026"; 
 
-        // Bypass otomatis agar Anda tidak terblokir saat testing offline di laptop
+        // Automatic bypass for offline local testing on your laptop
         const isLocalhost = window.location.hostname === "localhost" || 
                             window.location.hostname === "127.0.0.1" || 
                             window.location.protocol === "file:";
 
         if (token === kunciRahasia || isLocalhost) {
-            // 1. Jika cocok, buka kunci konten asli
+            // 1. If valid, unlock and display the original dashboard content
             document.getElementById('konten-skripsi').style.display = 'block';
             document.getElementById('pesan-error').style.display = 'none';
-            document.title = "Proyek Akhir - Prediksi RUL Gas Engine"; 
+            document.title = "Undergraduate Thesis Project - Gas Engine RUL Prediction"; 
 
-            // 2. Trik Menyembunyikan Token: Bersihkan parameter URL di browser tanpa reload halaman
+            // 2. URL Token Masking Trick: Clean up URL parameters in the address bar without reloading
             if (!isLocalhost && token === kunciRahasia) {
                 const urlBersih = window.location.protocol + "//" + window.location.host + window.location.pathname;
                 window.history.replaceState({ path: urlBersih }, '', urlBersih);
